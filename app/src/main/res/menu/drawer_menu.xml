@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:showIn="nav_view">
+
+    <group android:checkableBehavior="single"
+            >
+        <item
+                android:id="@+id/my_trades"
+                android:icon="@drawable/deal"
+                android:title="توصياتي" />
+
+        <item
+
+                android:id="@+id/add_trades"
+                android:icon="@drawable/company"
+
+                android:title=" اضافة  "
+               />
+
+        <item
+
+                android:id="@+id/upgrade"
+                android:icon="@drawable/star"
+                android:title="الترقية" />
+
+    </group>
+
+    <item android:title="Communicate">
+
+
+
+        <item
+                android:id="@+id/more"
+                 
+                android:icon="@drawable/settings"
+                android:title="اعداد الحساب" />
+
+    </item>
+</menu>
